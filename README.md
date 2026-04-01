@@ -40,7 +40,7 @@ $$Loss = \text{BCE}(x, \hat{x}) + \text{KLD}(q(z|x) || p(z))$$
 
 During testing, both normal and anomalous images are passed through the model.
 
-- Compute **Mean Squared Error (MSE)** between input `x` and reconstruction $\hat{x}$.
+- Compute **Mean Squared Error (MSE)** between input $x$ and reconstruction $\hat{x}$.
 - **Low error:** Normal sample  
 - **High error:** Anomalous sample
 
